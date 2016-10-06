@@ -21,7 +21,7 @@
 							
 	<?php
 	require_once("Login.php");
-	$resultat = RecupererDesDonnees("select title,theme,type,duration,capacity,abstract,target from atelier ",NULL);
+	$resultat = RecupererDesDonnees("select title,theme,type,duration,capacity,abstract,target from Atelier ",NULL);
 	foreach($resultat as $row)
 	{?>
 	<tr class='active'>
