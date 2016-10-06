@@ -15,8 +15,8 @@
             <h1 id="banner-title">Circuit Scientifique Bordelais</h1>
         </div>
         <div id="menu" class="under">
-            <button class="button">Les Ateliers</button>
-            <button class="button">Créez votre Atelier</button>
+            <a href="ListAtelier.php"> <button class="button">Les Ateliers</button></a>
+            <a href="ajouterAtelier.php"> <button class="button">Créez votre Atelier</button></a>
         </div>
         
         <div id="content" class="under">
